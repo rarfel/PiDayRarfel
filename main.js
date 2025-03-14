@@ -12,7 +12,6 @@ let denominator
 let evaluate = true
 
 PI.innerHTML = `PI: ${leftNumerator}/${leftDenominator} < ${pi} < ${rightNumerator}/${rightDenominator} <br>` + PI.innerHTML
-PI.innerHTML = `PI: ${leftNumerator/leftDenominator} < ${pi} < ${rightNumerator/rightDenominator} <br>` + PI.innerHTML
 
 let Aproximate = ()=>
 {
@@ -35,7 +34,6 @@ let Aproximate = ()=>
             evaluate = false
         }
         PI.innerHTML = `PI: ${leftNumerator}/${leftDenominator} < ${pi} < ${rightNumerator}/${rightDenominator} <br>` + PI.innerHTML
-        PI.innerHTML = `PI: ${leftNumerator/leftDenominator} < ${pi} < ${rightNumerator/rightDenominator} <br>` + PI.innerHTML
     }
 }
 
